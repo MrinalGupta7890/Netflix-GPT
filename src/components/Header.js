@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { addUser, removeUser } from "../utils/userSlice";
-import { NETFLIXLOGO } from "../utils/constant";
+import { NETFLIXLOGO, USER_AVATAR } from "../utils/constant";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -49,7 +49,7 @@ const Header = () => {
       />
       {user && (
         <div className="flex p-4">
-          <img className="w-8 h-8" src={user.photoURL} alt="UserIcon" />
+          <img className="w-8 h-8" src={USER_AVATAR} alt="UserIcon" />
           <button onClick={handleSignOut} className="font-bold text-white">
             (Sign Out)
           </button>
