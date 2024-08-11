@@ -18,3 +18,5 @@ export const PLAY_ICON =
 
 export const MOREINFO_ICON =
   "https://www.pngplay.com/wp-content/uploads/7/More-Info-Button-PNG-HD-Quality.png";
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
