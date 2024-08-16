@@ -30,3 +30,8 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "es", name: "Spanish" },
   { identifier: "bho", name: "Bhojpuri" },
 ];
+
+// export const OPENAI_KEY =
+//   "sk-D15BLpkmTnJ91nobxbINO_V3lr3WpWLbx3cvQfxus0T3BlbkFJpUtc1w1rtnP359xbY-oO1ZT91Ch_BGUsyg1O756kYA";
+export const OPENAI_KEY =
+  "sk-1f-9BFRf76VdPfvA_WMVgEORGSrzcHdiMhQrGoSm10T3BlbkFJTEa3djd4Aiec1bUYxHR5mCiQ8IeGA-ex-BB_vzCJsA";

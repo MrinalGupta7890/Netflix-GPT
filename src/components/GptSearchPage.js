@@ -1,15 +1,21 @@
+import { useState } from "react";
 import { BG_IMAGE } from "../utils/constant";
 import GptMovieSuggestions from "./GptMovieSuggestions";
 import GptSearchBar from "./GptSearchBar";
 
 const GptSearchPage = () => {
+  const [movies, setMovies] = useState([]);
+
+  const handleSearchResults = (results) => {
+    setMovies(results);
+  };
   return (
     <div>
-      <div className="absolute -z-10">
+      <div className="fixed -z-10">
         <img src={BG_IMAGE} alt="Background" />
       </div>
-      <GptSearchBar />
-      <GptMovieSuggestions />
+      <GptSearchBar onSearch={handleSearchResults} />
+      <GptMovieSuggestions movies={movies} />
     </div>
   );
 };
