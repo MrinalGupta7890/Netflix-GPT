@@ -11,8 +11,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer " + process.env.REACT_APP_TMDB_KEY,
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
@@ -30,3 +29,6 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "es", name: "Spanish" },
   { identifier: "bho", name: "Bhojpuri" },
 ];
+
+export const MOVIE_DETAIL_POSTER =
+  "https://www.hollywoodreporter.com/wp-content/uploads/2024/07/TDW-14349_R-H-2024-1.jpg?w=1296&h=730&crop=1";
