@@ -7,14 +7,7 @@ export const USER_AVATAR =
 export const BG_IMAGE =
   "https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/6d20b198-e7ab-4e9f-a1aa-666faa0298f9/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_small.jpg";
 
-export const API_OPTIONS = {
-  method: "GET",
-  headers: {
-    accept: "application/json",
-    Authorization:
-      "Bearer ${process.env.REACT_APP_API_AUTH_TOKEN}",
-  },
-};
+
 
 export const PLAY_ICON =
   "https://i.pinimg.com/474x/3c/9b/eb/3c9beb192aabdfef6fdd0a9b47c89541.jpg";
