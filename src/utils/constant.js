@@ -12,7 +12,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Use personal Authorization",
+      "Bearer ${process.env.REACT_APP_API_AUTH_TOKEN}",
   },
 };
 
