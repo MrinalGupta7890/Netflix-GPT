@@ -12,10 +12,12 @@ const GptSearchPage = () => {
   return (
     <div>
       <div className="fixed -z-10">
-        <img src={BG_IMAGE} alt="Background" />
+        <img className="h-screen object-cover md:h-auto md:object-contain" src={BG_IMAGE} alt="Background" />
       </div>
+      <div className="">
       <GptSearchBar onSearch={handleSearchResults} />
       <GptMovieSuggestions movies={movies} />
+      </div>
     </div>
   );
 };
