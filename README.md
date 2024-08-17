@@ -57,12 +57,19 @@
 
  - Browse Page (after authentication)
    - Header
+      - Search
+        - SearchBar
+        - Search related MovieSuggestions
+          - MovieCards
+           - MovieDetails
+             - Play Button
+      - Sign out
    - Main Movie
-     - Trailer In Backgroung
+     - Trailer In Background
      - Title & description
+     - Play & MoreInfo Button
      - MovieSuggestions
        - MovieLists * N
+         - MovieCards
+           - MovieDetails
 
- - HetflixGPT
-   - Search Bar
-   - Movie suggetions
