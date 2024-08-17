@@ -1,20 +1,14 @@
 import React from "react";
-import {
-  BG_IMAGE,
-  MOREINFO_ICON,
-  MOVIE_DETAIL_POSTER,
-  NETFLIXLOGO,
-  PLAY_ICON,
-} from "../utils/constant";
+import { NETFLIXLOGO } from "../utils/constant";
 import { Link } from "react-router-dom";
 
 const MovieDetails = () => {
   return (
     <div
-    className="fixed h-screen w-screen bg-cover"
+      className="fixed h-screen w-screen bg-cover"
       style={{ backgroundImage: `url('/Images/MovieDetails.png')` }}
     >
-       <div className="absolute w-screen px-16 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
+      <div className="absolute w-screen px-16 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
         <img
           className="w-44 mx-auto md:mx-0"
           src={NETFLIXLOGO}
