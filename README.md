@@ -45,6 +45,7 @@
  - Added .env file
  - Added .env file to gitignore
  - Make our Site Responsive
+ - Added Hover Effect on every button and MovieCard
 
 
 

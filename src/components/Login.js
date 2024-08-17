@@ -128,12 +128,16 @@ const Login = () => {
         />
         <p className="text-red-500 p-2">{errorMessage}</p>
         <button
-          className="p-2 my-6 bg-red-700 w-full rounded-md"
+          className="p-2 my-6 bg-red-700 w-full rounded-md transition-transform duration-300 ease-in-out
+             hover:bg-red-800 hover:scale-105 hover:shadow-lg"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
         </button>
-        <p className="py-4 cursor-pointer" onClick={toggleSignInForm}>
+        <p
+          className="py-4 cursor-pointer text-white hover:text-blue-700 hover:underline transition duration-100 ease-in-out"
+          onClick={toggleSignInForm}
+        >
           {isSignInForm
             ? "New to Netflix? Sign up now."
             : "Already registered? Sign In now"}

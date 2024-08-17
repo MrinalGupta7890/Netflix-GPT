@@ -22,7 +22,7 @@ const VideoTitle = ({ title, overview }) => {
           </button>
         </a>
         <Link to="/detail">
-          <button className="hidden md:inline-block mx-2 bg-gray-500 text-white p-2 px-6 text-xl bg-opacity-50 rounded-md">
+          <button className="hidden md:inline-block mx-2 bg-gray-500 text-white p-2 px-6 text-xl bg-opacity-50 rounded-md hover:bg-gray-800 hover:bg-opacity-70 hover:shadow-lg hover:text-gray-100 transition duration-75 ease-in-out">
             <img
               src={MOREINFO_ICON}
               alt="Play"
