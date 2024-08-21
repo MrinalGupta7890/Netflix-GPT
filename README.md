@@ -73,4 +73,3 @@
        - MovieLists * N
          - MovieCards
            - MovieDetails
-
