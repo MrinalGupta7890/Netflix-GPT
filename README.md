@@ -75,7 +75,9 @@
            - MovieDetails
 
 
-Directory structure:
+# Project Directory Structure
+
+```plaintext
 └── MrinalGupta7890-Netflix-GPT/
     ├── README.md
     ├── firebase.json
