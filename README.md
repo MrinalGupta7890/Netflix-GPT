@@ -73,3 +73,56 @@
        - MovieLists * N
          - MovieCards
            - MovieDetails
+
+
+Directory structure:
+└── MrinalGupta7890-Netflix-GPT/
+    ├── README.md
+    ├── firebase.json
+    ├── package.json
+    ├── tailwind.config.js
+    ├── .firebaserc
+    ├── public/
+    │   ├── index.html
+    │   ├── manifest.json
+    │   ├── robots.txt
+    │   └── Images/
+    └── src/
+        ├── App.css
+        ├── App.js
+        ├── index.css
+        ├── index.js
+        ├── reportWebVitals.js
+        ├── setupTests.js
+        ├── components/
+        │   ├── Body.js
+        │   ├── Browse.js
+        │   ├── GptMovieSuggestions.js
+        │   ├── GptSearchBar.js
+        │   ├── GptSearchPage.js
+        │   ├── Header.js
+        │   ├── Login.js
+        │   ├── MainContainer.js
+        │   ├── MovieCard.js
+        │   ├── MovieDetails.js
+        │   ├── MovieList.js
+        │   ├── SecondaryContainer.js
+        │   ├── VideoBackground.js
+        │   └── VideoTitle.js
+        ├── hooks/
+        │   ├── useMovieTrailer.js
+        │   ├── useNowPlayingMovies.js
+        │   ├── usePopularMovies.js
+        │   ├── useTopRatedMovies.js
+        │   └── useUpcomingMovies.js
+        └── utils/
+            ├── appStore.js
+            ├── configSlice.js
+            ├── constant.js
+            ├── firebase.js
+            ├── gptSlice.js
+            ├── langauageConstant.js
+            ├── moviesSlice.js
+            ├── openai.js
+            ├── userSlice.js
+            └── validate.js
